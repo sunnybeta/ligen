@@ -1,0 +1,19 @@
+[project]
+name = "Ligen"
+version = "1.0"
+authors = [
+  { name="Sunny Beta", email="sunnybeta@protonmail.com" },
+]
+description = "A simple license generator"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/EternalParadiseFaith/ligen"
+"Bug Tracker" = "https://github.com/EternalParadiseFaith/ligen/issues"
+
