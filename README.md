@@ -8,24 +8,22 @@
 ### Python
 
 ```shell
-pip install ligen
+pip install git+https://github.com/EternalParadiseFaith/ligen.git@master
 ```
 
 ## Usage
 
 ```shell
-usage: main.py [-h] [-e EMAIL] [-f FILE | -o] name year
-
-positional arguments:
-  name                  Name of the author
-  year                  License Year
+usage: main.py [-h] -n NAME -y YEAR [-e EMAIL] [-t TYPE] [-f FILE]
 
 optional arguments:
   -h, --help            show this help message and exit
+  -n NAME, --name NAME  Name of the author
+  -y YEAR, --year YEAR  License Year
   -e EMAIL, --email EMAIL
                         Email of the author
+  -t TYPE, --type TYPE  License Type
   -f FILE, --file FILE  Output to custom filename
-  -o, --output          Output to filename LICENSE
 ```
 
 ## TODO

@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "Ligen"
 version = "1.0"
@@ -13,7 +17,10 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project.scripts]
+ligen = "ligen.main:main"
+
 [project.urls]
-"Homepage" = "https://github.com/EternalParadiseFaith/ligen"
-"Bug Tracker" = "https://github.com/EternalParadiseFaith/ligen/issues"
+"Homepage" = "https://github.com/EternalParadiseFaith/Ligen"
+"Bug Tracker" = "https://github.com/EternalParadiseFaith/Ligen/issues"
 
