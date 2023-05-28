@@ -3,8 +3,7 @@ import argparse
 from ligen import templates
 
 
-if __name__ == '__main__':
-
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-n", "--name", type=str, help="Name of the author", default="")
     parser.add_argument("-y", "--year", type=str, help="License Year", default="")
@@ -31,3 +30,7 @@ if __name__ == '__main__':
             f.write(license_text)
     else:
         print(license_text)
+
+
+if __name__ == '__main__':
+    main()
