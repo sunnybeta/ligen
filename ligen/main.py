@@ -6,11 +6,11 @@ from ligen import templates
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-n", "--name",  type=str, help="Name of the author",  default="")
-    parser.add_argument("-y", "--year",  type=str, help="License Year",        default="")
+    parser.add_argument("-n", "--name", type=str, help="Name of the author", default="")
+    parser.add_argument("-y", "--year", type=str, help="License Year", default="")
     parser.add_argument("-e", "--email", type=str, help="Email of the author", default="")
-    parser.add_argument("-t", "--type",  type=str, help="License Type; Available Options ['apache_2','mit','unliecnse','ggpl2']",        default='mit')
-    parser.add_argument("-f", "--file",  type=str, help="Output to custom filename")
+    parser.add_argument("-t", "--type", type=str, help="License Type; Available Options ['apache_2','mit','unliecnse','ggpl2']", default='mit')
+    parser.add_argument("-f", "--file", type=str, help="Output to custom filename")
     
     arguments = parser.parse_args()
 
